@@ -1,6 +1,21 @@
-<br>
-в репозитории друга создать ветку со своей фамилией: 
-"-C git branch surname"
+</br>
+в репозитории друга создать ветку со своей фамилией:
+
+`git branch surname`
+
 переключиться в новую ветку: 
-" -C git checkout surname"
+
+`git checkout surname` 
+</br>
+</br>
+проверить статус репозитория:
+
+`git status`
+сделать комит:
+` git commit -m “branch instructions”`
+
+отправить изменения на сервер:
+
+` git push`
+
 </br>
