@@ -17,7 +17,11 @@
 
 ## Аналогово-цифровой преобразователь
 
-- [** "Простейший" АЦП **](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/AnalogToDigitalConverter/A.py)
+- [**Простейший АЦП **](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/AnalogToDigitalConverter/A.py)
+
 -[**АЦП последовательного приближения (поразрядного уравновешивания)**](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/AnalogToDigitalConverter/B.py)
+
 - ["Громкость"](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/AnalogToDigitalConverter/C.py)
+
 > В связи с тем, что мой потенциометр выдаёт максимальное напряжение 0.82V(плата на столе 17), была введена переменная ```maxVoltage``, для стабильной работы измените её значение.
+
