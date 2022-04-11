@@ -17,6 +17,7 @@ def adc()->float:
             right = volt
         else:
             left = volt
+    print(3.3*(left + (right-left)//2)/255)
     return    3.3*(left + (right-left)//2)/255   
             
 
@@ -25,13 +26,22 @@ def adc()->float:
 gpio.setmode(gpio.BCM)
 dacPins = [26,19,13,6,5,11,9,10]
 gpio.setup(dacPins,gpio.OUT,initial = 0)
+ledPins = [24,25,8,7,12,16,20,21]
 compPin = 4
 gpio.setup(compPin,gpio.IN)
 potVoltage = 17
 gpio.setup(potVoltage,gpio.OUT,initial = 1)
+maxVoltage = 0.82
+gpio.setup(ledPins,gpio.OUT)
 try:
     while True:
-        print(adc())
+        alpha = int(adc()/maxVoltage*9)
+
+        leds = [0]*(8-alpha)+[1]*alpha
+        for i,val in enumerate(ledPins):
+            gpio.output(val,leds[i])
+
+
 finally:
     gpio.output(dacPins,0)
     gpio.cleanup()
