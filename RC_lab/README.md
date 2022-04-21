@@ -4,7 +4,7 @@
 
 Для получения объекта файла удобно использовать конструкцию `with as`. Данная конструкция удобна тем, что при выходе из программы или возникновении какой-либо ошибки файл будет закрыт автоматически. Драгоценные данные не будут утеряны. 
 
-<p align="center">
-    _ Пример из [официальной документации к языку python3](https://docs.python.org/3/) _:
-	![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/synopsis/openFile.png)
-</p>
+_ Пример из [официальной документации к языку python3](https://docs.python.org/3/) _:
+
+![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/synopsis/openFile.png)
+
