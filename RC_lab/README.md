@@ -60,7 +60,10 @@ _Пример из_ [_официальной документации к язы�
 	- 'o'       кружочки 
 	- '_'       крест(если пользоваться методом `.errorbar()` можно наносить кресты погрешностей)
 
-Пример использования matplotlib:
-![alt text](
+#### Пример использования matplotlib:
+![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/synopsis/example1.png)
+
+Построит 
+![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/synopsis/exp3.png)
 
 
