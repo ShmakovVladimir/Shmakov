@@ -23,3 +23,9 @@
 
 > В связи с тем, что мой потенциометр выдаёт максимальное напряжение 0.82V(плата на столе 17), была введена переменная ```maxVoltage```. Для стабильной работы измените её значение.
 
+## Лабораторная работа - изучение RC цепи
+
+- [**Маленький конспект**](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/README.md)
+- [**Рандомный график**](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/training/randomPlot.py)
+![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/training/randomPlot.png)
+
