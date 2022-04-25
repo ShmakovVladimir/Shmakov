@@ -29,7 +29,8 @@
 - [**Рандомный график**](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/training/randomPlot.py)
 ![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/training/randomPlot.png)
 - [**Программа для измерений и результаты, полученные в работе**](https://github.com/ShmakovVladimir/MIPTengineering/tree/main/RC_lab/meagurement)
-	-[Программа](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/meagurement/main.py)
-	-[Данные первого эксперимента](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/meagurement/data.txt)
-	-[Данные второго эксперимента](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/meagurement/data2.txt)
+	- [Программа](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/meagurement/main.py)
+	- [Данные первого эксперимента](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/meagurement/data.txt)
+	- [Данные второго эксперимента](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/meagurement/data2.txt)
+
 
