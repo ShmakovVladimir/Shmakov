@@ -42,13 +42,13 @@ try:
         nowTime = datetime.datetime.now() - startTime
         voltageData.append(nowVoltage)
         timeData.append(nowTime.seconds+nowTime.microseconds/(10**6))
-        if nowVoltage >= 253:
+        if nowVoltage >= 252:
             print("Разряжаем конденсатор")
             gpio.output(potVoltage,0)
 finally:
     gpio.output(dacPins,0)
     gpio.cleanup()
-    with open('data.txt','w') as f:
+    with open('data2.txt','w') as f:
         for i in range(len(timeData)):
             outStr = str(timeData[i])+' '+str(voltageData[i])+'\n'
             f.write(outStr)
