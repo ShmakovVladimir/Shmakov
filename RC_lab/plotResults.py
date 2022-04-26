@@ -36,6 +36,6 @@ plt.plot(time,voltage,label = 'Линейная интерполяция')
 plt.plot(xAx,yAx,':',label = r'''Теоретическая модель: $U_c = \mathcal{E} \cdot \left( 1 - e^{-t / \tau} \right) $, где $\tau = RC = \cdot 1 MoM \cdot 10 \mu F = 10 c$''')
 plt.annotate(r"Время $5 \tau$, напряжение на конденсаторе: "+str(round(100*fiveTauDot/3.3,1))+"$\%$"+" от максимального", xy=(50, fiveTauDot), xytext=(44, 3),color = 'purple')
 plt.plot([50],[fiveTauDot],'o',color = 'purple')
-axes.legend(loc = 'lower right')
+axes.legend(loc = 'lower right',prop = {'size': 15})
 plt.show()
 
