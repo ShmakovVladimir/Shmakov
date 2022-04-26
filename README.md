@@ -33,6 +33,7 @@
 	- [Данные первого эксперимента](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/meagurement/data.txt)
 	- [Данные второго эксперимента](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/meagurement/data2.txt)
 	> По непонятным мне причинам конденсатор категорически отказывался разряжаться. Ошибку в коде найти не удалось. Получены данные только для этапа зарядки
+
 -[**График по результатам первого эксперимента**](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/plotResults.py) 
 ![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/nabrosok.png)
 
