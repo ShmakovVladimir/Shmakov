@@ -14,14 +14,14 @@ def readData(path: str):
             time.append(t)
     return voltage,time
 
-dataPath = 'meagurement/data.txt'
+dataPath = 'meagurement/data2.txt'
 voltage,time = readData(dataPath)
 xAx = np.arange(0,80.1,0.01)
 yAx = 3.3*(1-np.exp(-xAx/10))
 f = interp.interp1d(time,voltage)
 fiveTauDot = f(50)
 fig,axes = plt.subplots()
-axes.set_title("Эксперимент 1: $C = 10 \mu F$, $R = 1MoM$")
+axes.set_title("Эксперимент 2: $C = 10 \mu F$, $R = 1MoM$")
 plt.xlabel(r"Время $с$")
 plt.ylabel("Напяжение $V$")
 #Сетка по оси y - пять шагов квантования АЦП
