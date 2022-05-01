@@ -36,4 +36,5 @@
 
 - [**График по результатам первого эксперимента**](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/plotResults.py) 
 ![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/nabrosok.png)
-
+- [**График по результатам второго эксперимента**](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/plotResults.py)
+![alt text](https://github.com/ShmakovVladimir/MIPTengineering/blob/main/RC_lab/data2Plot.png)
